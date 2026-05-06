@@ -1,0 +1,1085 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <!-- ══ SEO PRIMARY ══ -->
+  <title>Chácaras e Terrenos à Venda perto de SP | Dantas Negócios Imobiliários</title>
+  <meta name="description" content="Encontre chácaras, sítios e terrenos grandes para construção de casas com piscina próximos a São Paulo. Melhores preços da região em Mairiporã, Atibaia, Terra Preta e Guarulhos. Dantas Negócios Imobiliários."/>
+  <meta name="keywords" content="chácaras à venda perto de sp, terrenos grande porte são paulo, sítio mairiporã, chácara atibaia, terreno para casa com piscina, imóveis rurais sp, chácara guarulhos, terreno terra preta, imobiliaria rural são paulo, dantas negocios imobiliarios"/>
+  <meta name="author" content="Dantas Negócios Imobiliários"/>
+  <meta name="robots" content="index, follow"/>
+  <link rel="canonical" href="https://dantasimoveis.com.br/chácaras-terrenos"/>
+
+  <!-- ══ OPEN GRAPH ══ -->
+  <meta property="og:type" content="website"/>
+  <meta property="og:title" content="Chácaras e Terrenos Grandes perto de SP | Dantas Imóveis"/>
+  <meta property="og:description" content="Qualidade de vida, lazer e natureza com os melhores preços da região. Chácaras e terrenos próximos a São Paulo."/>
+  <meta property="og:locale" content="pt_BR"/>
+  <meta property="og:site_name" content="Dantas Negócios Imobiliários"/>
+
+  <!-- ══ SCHEMA ══ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "RealEstateAgent",
+    "name": "Dantas Negócios Imobiliários",
+    "description": "Especialistas em chácaras, sítios e terrenos de grande porte próximos a São Paulo.",
+    "url": "https://dantasimoveis.com.br",
+    "areaServed": ["Mairiporã","Atibaia","Guarulhos","Terra Preta","São Paulo"],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Chácaras e Terrenos à Venda",
+      "itemListElement": [
+        {"@type":"Offer","name":"Chácara com piscina em Mairiporã"},
+        {"@type":"Offer","name":"Terreno de 3.000m² em Atibaia"},
+        {"@type":"Offer","name":"Sítio com lago em Terra Preta"}
+      ]
+    }
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+
+  <style>
+    /* ══════════════════════════════════════
+       TOKENS
+    ══════════════════════════════════════ */
+    :root{
+      --forest:  #2D4A2D;
+      --forest2: #3D6B3D;
+      --sage:    #7A9E6E;
+      --sage-lt: #A8C49A;
+      --cream:   #F5F0E8;
+      --cream2:  #EDE5D4;
+      --terra:   #B5763A;
+      --terra-lt:#D4975A;
+      --sand:    #C9B99A;
+      --dark:    #1A2A1A;
+      --txt:     #2C3A2C;
+      --txt-m:   #6B7B6B;
+      --white:   #FFFFFF;
+      --radius:  8px;
+      --shadow:  0 4px 24px rgba(45,74,45,.12);
+    }
+
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth;font-size:16px}
+    body{font-family:'DM Sans',sans-serif;background:var(--cream);color:var(--txt);overflow-x:hidden}
+
+    /* ══ HELPERS ══ */
+    .container{width:100%;max-width:960px;margin:0 auto;padding:0 20px}
+    .tag{display:inline-block;font-size:11px;font-weight:600;letter-spacing:2.5px;text-transform:uppercase;color:var(--terra);border:1.5px solid var(--terra);padding:4px 14px;border-radius:20px}
+    .section-title{font-family:'Cormorant Garamond',serif;font-size:clamp(32px,7vw,52px);font-weight:600;line-height:1.1;color:var(--forest);margin-top:10px}
+    .section-title em{font-style:italic;color:var(--terra)}
+    .divider{width:48px;height:3px;background:linear-gradient(90deg,var(--terra),var(--terra-lt));border-radius:2px;margin:16px 0}
+
+    .reveal{opacity:0;transform:translateY(36px);transition:opacity .7s ease,transform .7s ease}
+    .reveal.in{opacity:1;transform:translateY(0)}
+    .reveal-l{opacity:0;transform:translateX(-36px);transition:opacity .7s ease,transform .7s ease}
+    .reveal-l.in{opacity:1;transform:translateX(0)}
+    .reveal-r{opacity:0;transform:translateX(36px);transition:opacity .7s ease,transform .7s ease}
+    .reveal-r.in{opacity:1;transform:translateX(0)}
+
+    /* ══ HEADER ══ */
+    header{
+      position:fixed;top:0;left:0;right:0;z-index:200;
+      padding:14px 20px;
+      display:flex;align-items:center;justify-content:space-between;
+      background:rgba(245,240,232,.92);
+      backdrop-filter:blur(14px);
+      border-bottom:1px solid rgba(45,74,45,.12);
+      transition:all .3s;
+    }
+    header.scrolled{background:rgba(26,42,26,.95);border-color:rgba(120,158,110,.2)}
+    header.scrolled .logo-name{color:var(--sage-lt)}
+    header.scrolled .logo-sub{color:rgba(168,196,154,.6)}
+    .logo-wrap{display:flex;flex-direction:column;line-height:1}
+    .logo-name{font-family:'Cormorant Garamond',serif;font-size:20px;font-weight:700;letter-spacing:1px;color:var(--forest);transition:color .3s}
+    .logo-sub{font-size:9px;letter-spacing:2.5px;text-transform:uppercase;color:var(--txt-m);margin-top:2px;transition:color .3s}
+    .hdr-actions{display:flex;gap:10px;align-items:center}
+    .hdr-wpp{
+      display:flex;align-items:center;gap:6px;
+      background:var(--forest);color:var(--white);
+      font-size:13px;font-weight:500;letter-spacing:.5px;
+      text-decoration:none;padding:9px 16px;border-radius:6px;
+      transition:background .2s,transform .15s;
+    }
+    .hdr-wpp:hover{background:var(--forest2);transform:scale(1.03)}
+    .hdr-wpp svg{width:16px;height:16px;flex-shrink:0}
+    .hdr-form-btn{
+      display:flex;align-items:center;gap:6px;
+      background:var(--terra);color:var(--white);
+      font-size:13px;font-weight:500;letter-spacing:.5px;
+      text-decoration:none;padding:9px 16px;border-radius:6px;
+      transition:background .2s,transform .15s;
+    }
+    .hdr-form-btn:hover{background:var(--terra-lt);transform:scale(1.03)}
+    @media(max-width:480px){.hdr-form-btn span{display:none}}
+
+    /* ══ HERO ══ */
+    #hero{
+      min-height:100svh;
+      position:relative;
+      display:flex;flex-direction:column;justify-content:flex-end;
+      padding:0 20px 64px;
+      overflow:hidden;
+    }
+    .hero-scene{
+      position:absolute;inset:0;z-index:0;
+      background:
+        linear-gradient(175deg, rgba(26,42,26,.55) 0%, rgba(26,42,26,.15) 50%, rgba(26,42,26,.7) 100%),
+        url('https://images.unsplash.com/photo-1586105251261-72a756497a11?w=1400&auto=format&fit=crop') center/cover no-repeat;
+    }
+    .hero-overlay{
+      position:absolute;inset:0;z-index:1;
+      background:radial-gradient(ellipse 80% 60% at 50% 100%, rgba(45,74,45,.4) 0%, transparent 70%);
+    }
+    /* animated leaves */
+    .hero-leaf{
+      position:absolute;z-index:1;opacity:.12;
+      font-size:clamp(80px,20vw,220px);
+      pointer-events:none;
+      animation:drift 18s ease-in-out infinite;
+    }
+    .hero-leaf:nth-child(1){top:-40px;right:-40px;animation-delay:0s}
+    .hero-leaf:nth-child(2){bottom:80px;left:-60px;animation-delay:-9s;font-size:clamp(60px,14vw,160px)}
+    @keyframes drift{0%,100%{transform:rotate(-8deg) scale(1)}50%{transform:rotate(4deg) scale(1.08)}}
+
+    .hero-content{position:relative;z-index:2;max-width:700px}
+    .hero-eyebrow{
+      display:inline-flex;align-items:center;gap:8px;
+      font-size:12px;font-weight:500;letter-spacing:3px;text-transform:uppercase;
+      color:var(--sage-lt);margin-bottom:18px;
+      opacity:0;animation:fadeUp .8s .2s forwards;
+    }
+    .hero-eyebrow::before{content:'';width:24px;height:1.5px;background:var(--sage-lt)}
+    .hero-h1{
+      font-family:'Cormorant Garamond',serif;
+      font-size:clamp(46px,12vw,96px);
+      font-weight:700;line-height:.92;
+      color:var(--white);
+      margin-bottom:24px;
+      opacity:0;animation:fadeUp .8s .4s forwards;
+    }
+    .hero-h1 em{font-style:italic;color:var(--terra-lt)}
+    .hero-sub{
+      font-size:clamp(15px,3.5vw,18px);font-weight:300;line-height:1.7;
+      color:rgba(255,255,255,.75);
+      max-width:480px;margin-bottom:40px;
+      opacity:0;animation:fadeUp .8s .6s forwards;
+    }
+    .hero-badges{
+      display:flex;flex-wrap:wrap;gap:10px;margin-bottom:36px;
+      opacity:0;animation:fadeUp .8s .75s forwards;
+    }
+    .hero-badge{
+      background:rgba(255,255,255,.12);backdrop-filter:blur(6px);
+      border:1px solid rgba(255,255,255,.22);
+      border-radius:20px;padding:6px 16px;
+      font-size:13px;font-weight:400;color:var(--white);
+    }
+    .hero-actions{
+      display:flex;gap:14px;flex-wrap:wrap;
+      opacity:0;animation:fadeUp .8s .9s forwards;
+    }
+    .btn-green{
+      display:inline-flex;align-items:center;gap:10px;
+      background:var(--forest);color:var(--white);
+      font-size:15px;font-weight:500;letter-spacing:.5px;
+      text-decoration:none;padding:16px 28px;border-radius:6px;
+      border:none;cursor:pointer;
+      transition:all .2s;
+    }
+    .btn-green:hover{background:var(--forest2);transform:translateY(-2px);box-shadow:0 8px 28px rgba(45,74,45,.4)}
+    .btn-green svg{width:18px;height:18px;flex-shrink:0}
+    .btn-cream{
+      display:inline-flex;align-items:center;gap:10px;
+      background:rgba(255,255,255,.15);backdrop-filter:blur(8px);
+      border:1.5px solid rgba(255,255,255,.4);color:var(--white);
+      font-size:15px;font-weight:400;letter-spacing:.5px;
+      text-decoration:none;padding:16px 28px;border-radius:6px;
+      transition:all .2s;cursor:pointer;
+    }
+    .btn-cream:hover{background:rgba(255,255,255,.25);border-color:rgba(255,255,255,.7)}
+    .btn-green svg,.btn-cream svg{width:18px;height:18px;flex-shrink:0}
+
+    .hero-scroll{
+      position:absolute;bottom:24px;left:50%;transform:translateX(-50%);
+      display:flex;flex-direction:column;align-items:center;gap:6px;
+      font-size:10px;letter-spacing:2px;text-transform:uppercase;
+      color:rgba(255,255,255,.5);z-index:2;
+      opacity:0;animation:fadeIn 1s 1.4s both;
+    }
+    .scroll-line{width:1px;height:32px;background:linear-gradient(to bottom,rgba(255,255,255,.5),transparent);animation:line-grow 1.5s 1.8s ease-out infinite}
+    @keyframes line-grow{0%{transform:scaleY(0);transform-origin:top}50%{transform:scaleY(1);transform-origin:top}51%{transform:scaleY(1);transform-origin:bottom}100%{transform:scaleY(0);transform-origin:bottom}}
+
+    /* ══ WHY BAND ══ */
+    #why{background:var(--forest);padding:60px 0}
+    .why-grid{
+      display:grid;
+      grid-template-columns:repeat(2,1fr);
+      gap:2px;
+    }
+    @media(min-width:600px){.why-grid{grid-template-columns:repeat(4,1fr)}}
+    .why-cell{
+      padding:28px 20px;
+      border-right:1px solid rgba(255,255,255,.08);
+      text-align:center;
+    }
+    .why-cell:last-child{border-right:none}
+    .why-icon{font-size:28px;margin-bottom:10px;display:block}
+    .why-val{font-family:'Cormorant Garamond',serif;font-size:36px;font-weight:700;color:var(--terra-lt);line-height:1}
+    .why-label{font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:rgba(168,196,154,.7);margin-top:4px}
+
+    /* ══ LISTINGS CAROUSEL ══ */
+    #listings{padding:80px 0;background:var(--cream)}
+    .listings-header{margin-bottom:36px;text-align:center}
+    .carousel-wrap{position:relative;overflow:hidden}
+    .carousel-track{
+      display:flex;
+      transition:transform .5s cubic-bezier(.4,0,.2,1);
+      will-change:transform;
+    }
+    .card{
+      min-width:calc(100% - 40px);
+      margin:0 20px;
+      background:var(--white);
+      border-radius:14px;
+      overflow:hidden;
+      box-shadow:var(--shadow);
+      flex-shrink:0;
+      transition:transform .3s;
+    }
+    @media(min-width:640px){.card{min-width:calc(50% - 24px);margin:0 12px}}
+    @media(min-width:960px){.card{min-width:calc(33.333% - 22px);margin:0 11px}}
+    .card-img{
+      width:100%;aspect-ratio:4/3;object-fit:cover;display:block;
+      background:var(--cream2);
+    }
+    .card-body{padding:22px 20px}
+    .card-tag{
+      font-size:10px;font-weight:600;letter-spacing:2px;text-transform:uppercase;
+      color:var(--terra);display:flex;align-items:center;gap:5px;margin-bottom:8px;
+    }
+    .card-title{font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:600;color:var(--forest);line-height:1.2;margin-bottom:10px}
+    .card-location{font-size:13px;color:var(--txt-m);display:flex;align-items:center;gap:5px;margin-bottom:14px}
+    .card-feats{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
+    .card-feat{
+      background:var(--cream);border-radius:4px;padding:5px 10px;
+      font-size:12px;font-weight:500;color:var(--txt-m);
+    }
+    .card-price{
+      font-family:'Cormorant Garamond',serif;font-size:26px;font-weight:700;color:var(--forest);
+      border-top:1px solid var(--cream2);padding-top:14px;margin-top:4px;
+      display:flex;align-items:center;justify-content:space-between;
+    }
+    .card-price-tag{font-size:11px;font-weight:500;letter-spacing:1px;text-transform:uppercase;color:var(--terra)}
+    .card-cta{
+      display:block;text-align:center;margin-top:14px;
+      background:var(--forest);color:var(--white);
+      text-decoration:none;padding:12px;border-radius:6px;
+      font-size:13px;font-weight:500;letter-spacing:.5px;
+      transition:background .2s;
+    }
+    .card-cta:hover{background:var(--forest2)}
+
+    .carousel-nav{
+      display:flex;justify-content:center;align-items:center;gap:16px;margin-top:32px;
+    }
+    .c-btn{
+      width:44px;height:44px;border-radius:50%;border:1.5px solid var(--sage);
+      background:transparent;cursor:pointer;display:flex;align-items:center;justify-content:center;
+      color:var(--forest);transition:all .2s;
+    }
+    .c-btn:hover{background:var(--forest);border-color:var(--forest);color:var(--white)}
+    .c-btn svg{width:18px;height:18px}
+    .c-dots{display:flex;gap:8px}
+    .c-dot{
+      width:8px;height:8px;border-radius:50%;background:var(--sand);
+      border:none;cursor:pointer;transition:all .25s;padding:0;
+    }
+    .c-dot.active{background:var(--forest);transform:scale(1.3)}
+
+    /* ══ WHY US ══ */
+    #whyus{background:var(--cream2);padding:80px 0}
+    .whyus-layout{display:grid;gap:48px}
+    @media(min-width:700px){.whyus-layout{grid-template-columns:1fr 1fr;align-items:start}}
+    .whyus-text p{font-size:16px;line-height:1.8;color:var(--txt-m);margin-bottom:16px}
+    .reasons{display:flex;flex-direction:column;gap:16px}
+    .reason-item{
+      display:flex;gap:16px;align-items:flex-start;
+      padding:18px;background:var(--white);border-radius:10px;
+      box-shadow:0 2px 12px rgba(45,74,45,.06);
+      transition:transform .2s,box-shadow .2s;
+    }
+    .reason-item:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(45,74,45,.1)}
+    .reason-icon{
+      width:42px;height:42px;border-radius:10px;
+      background:var(--forest);color:var(--white);
+      display:flex;align-items:center;justify-content:center;
+      font-size:18px;flex-shrink:0;
+    }
+    .reason-body h4{font-size:15px;font-weight:600;color:var(--forest);margin-bottom:4px}
+    .reason-body p{font-size:13px;line-height:1.6;color:var(--txt-m)}
+
+    /* ══ TESTIMONIAL / QUOTE ══ */
+    #quote{
+      background:var(--forest);
+      padding:70px 0;
+      text-align:center;
+      position:relative;overflow:hidden;
+    }
+    #quote::before{
+      content:'❝';
+      position:absolute;top:-20px;left:50%;transform:translateX(-50%);
+      font-family:'Cormorant Garamond',serif;font-size:200px;
+      color:rgba(255,255,255,.04);pointer-events:none;
+    }
+    .quote-text{
+      font-family:'Cormorant Garamond',serif;
+      font-size:clamp(20px,5vw,32px);font-weight:400;font-style:italic;
+      color:var(--white);line-height:1.6;max-width:680px;margin:0 auto 24px;
+      position:relative;
+    }
+    .quote-text strong{color:var(--terra-lt);font-style:normal}
+    .quote-wpp{
+      display:inline-flex;align-items:center;gap:10px;
+      background:rgba(255,255,255,.12);border:1.5px solid rgba(255,255,255,.3);
+      color:var(--white);text-decoration:none;
+      font-size:15px;font-weight:500;
+      padding:14px 28px;border-radius:6px;
+      transition:all .2s;backdrop-filter:blur(6px);
+    }
+    .quote-wpp:hover{background:rgba(255,255,255,.22)}
+    .quote-wpp svg{width:18px;height:18px}
+
+    /* ══ REGIONS ══ */
+    #regioes{padding:80px 0;background:var(--cream)}
+    .regioes-grid{
+      display:grid;
+      grid-template-columns:repeat(2,1fr);
+      gap:14px;margin-top:40px;
+    }
+    @media(min-width:640px){.regioes-grid{grid-template-columns:repeat(3,1fr)}}
+    .regiao-card{
+      background:var(--white);border-radius:10px;
+      padding:22px 18px;
+      border-left:3px solid var(--sage);
+      box-shadow:0 2px 10px rgba(45,74,45,.07);
+      transition:border-color .2s,transform .2s;
+    }
+    .regiao-card:hover{border-color:var(--terra);transform:translateX(3px)}
+    .regiao-name{font-family:'Cormorant Garamond',serif;font-size:20px;font-weight:600;color:var(--forest);margin-bottom:4px}
+    .regiao-dist{font-size:12px;color:var(--txt-m)}
+
+    /* ══ FORM ══ */
+    #formulario{
+      background:linear-gradient(160deg,var(--cream2) 0%,var(--cream) 100%);
+      padding:80px 0 100px;
+    }
+    .form-card{
+      background:var(--white);
+      border-radius:16px;
+      box-shadow:0 8px 48px rgba(45,74,45,.12);
+      overflow:hidden;
+    }
+    .form-header{
+      background:var(--forest);
+      padding:36px 36px 28px;
+    }
+    .form-header .tag{border-color:rgba(168,196,154,.5);color:var(--sage-lt)}
+    .form-header h2{
+      font-family:'Cormorant Garamond',serif;
+      font-size:clamp(26px,6vw,42px);font-weight:600;
+      color:var(--white);line-height:1.1;margin-top:10px;
+    }
+    .form-header p{font-size:14px;color:rgba(168,196,154,.8);margin-top:8px;line-height:1.6}
+    .form-body{padding:36px}
+    .form-row{display:grid;gap:16px;margin-bottom:16px}
+    @media(min-width:600px){.form-row.two{grid-template-columns:1fr 1fr}}
+    .field label{display:block;font-size:12px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:var(--txt-m);margin-bottom:6px}
+    .field input,.field select{
+      width:100%;padding:13px 16px;
+      background:var(--cream);border:1.5px solid var(--cream2);
+      border-radius:8px;font-family:'DM Sans',sans-serif;font-size:15px;color:var(--txt);
+      transition:border-color .2s,box-shadow .2s;outline:none;
+    }
+    .field input:focus,.field select:focus{border-color:var(--sage);box-shadow:0 0 0 3px rgba(122,158,110,.15)}
+    .field input::placeholder{color:var(--sand)}
+    .field select{appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%236B7B6B' stroke-width='2'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 14px center;background-size:16px;padding-right:40px}
+    .checkbox-wrap{display:flex;gap:12px;align-items:flex-start;padding:16px;background:var(--cream);border-radius:8px;border:1.5px solid var(--cream2);cursor:pointer}
+    .checkbox-wrap input[type="checkbox"]{width:18px;height:18px;accent-color:var(--forest);flex-shrink:0;margin-top:2px;cursor:pointer}
+    .checkbox-wrap span{font-size:13px;line-height:1.6;color:var(--txt-m)}
+    .form-submit{
+      width:100%;padding:17px;margin-top:24px;
+      background:var(--terra);color:var(--white);
+      border:none;border-radius:8px;cursor:pointer;
+      font-family:'DM Sans',sans-serif;font-size:16px;font-weight:600;letter-spacing:.5px;
+      transition:all .2s;
+    }
+    .form-submit:hover{background:var(--terra-lt);transform:translateY(-2px);box-shadow:0 6px 24px rgba(181,118,58,.35)}
+    .form-note{text-align:center;font-size:12px;color:var(--txt-m);margin-top:12px}
+    .form-success{
+      display:none;text-align:center;padding:40px 20px;
+    }
+    .form-success.show{display:block}
+    .form-success .success-icon{font-size:56px;display:block;margin-bottom:16px}
+    .form-success h3{font-family:'Cormorant Garamond',serif;font-size:28px;color:var(--forest);margin-bottom:8px}
+    .form-success p{font-size:15px;color:var(--txt-m)}
+
+    /* ══ FOOTER ══ */
+    footer{
+      background:var(--dark);
+      padding:40px 20px 30px;
+      text-align:center;
+    }
+    .footer-logo{font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:600;letter-spacing:1px;color:var(--sage-lt);margin-bottom:6px}
+    .footer-tag{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:rgba(122,158,110,.5)}
+    .footer-regioes{margin:20px 0;font-size:13px;color:rgba(168,196,154,.5)}
+    .footer-wpp{
+      display:inline-flex;align-items:center;gap:8px;
+      background:var(--forest);color:var(--white);text-decoration:none;
+      font-size:14px;font-weight:500;padding:12px 24px;border-radius:6px;
+      margin-top:12px;transition:background .2s;
+    }
+    .footer-wpp:hover{background:var(--forest2)}
+    .footer-wpp svg{width:16px;height:16px}
+    .footer-copy{font-size:11px;color:rgba(122,158,110,.3);margin-top:28px}
+
+    /* ══ FLOAT WPP ══ */
+    .wpp-float{
+      position:fixed;bottom:24px;right:20px;z-index:300;
+      display:flex;flex-direction:column;align-items:flex-end;gap:10px;
+    }
+    .wpp-pill{
+      background:var(--dark);color:var(--white);
+      font-size:12px;padding:8px 14px;border-radius:8px;
+      white-space:nowrap;display:none;pointer-events:none;
+      box-shadow:0 2px 12px rgba(0,0,0,.3);
+    }
+    .wpp-float:hover .wpp-pill{display:block}
+    .wpp-fab{
+      position:relative;width:58px;height:58px;
+      background:#25D366;border-radius:50%;
+      display:flex;align-items:center;justify-content:center;
+      text-decoration:none;
+      box-shadow:0 4px 20px rgba(37,211,102,.45);
+      transition:transform .2s,box-shadow .2s;
+      animation:pop .5s 2s cubic-bezier(.34,1.56,.64,1) both;
+    }
+    .wpp-fab:hover{transform:scale(1.1);box-shadow:0 6px 30px rgba(37,211,102,.6)}
+    .wpp-fab svg{width:28px;height:28px}
+    .wpp-ring{
+      position:absolute;inset:0;border-radius:50%;
+      border:2px solid #25D366;
+      animation:ring 2.5s 2.5s ease-out infinite;
+    }
+    @keyframes ring{0%{transform:scale(1);opacity:.8}100%{transform:scale(1.9);opacity:0}}
+    @keyframes pop{from{transform:scale(0) rotate(-180deg);opacity:0}to{transform:scale(1) rotate(0);opacity:1}}
+
+    /* ══ KEYFRAMES ══ */
+    @keyframes fadeUp{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:translateY(0)}}
+    @keyframes fadeIn{from{opacity:0}to{opacity:1}}
+
+    /* ══ MISC ══ */
+    @media(max-width:480px){
+      .hero-actions{flex-direction:column}
+      .btn-green,.btn-cream{justify-content:center}
+      .hdr-actions .hdr-wpp span{display:none}
+    }
+  </style>
+</head>
+<body>
+
+<!-- ══ HEADER ══ -->
+<header id="hdr">
+  <div class="logo-wrap">
+    <span class="logo-name">Dantas Imóveis</span>
+    <span class="logo-sub">Negócios Imobiliários</span>
+  </div>
+  <div class="hdr-actions">
+    <a class="hdr-form-btn" href="#formulario">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/></svg>
+      <span>Quero ser Contatado</span>
+    </a>
+    <a class="hdr-wpp" href="https://wa.me/5511957469220?text=Olá!%20Vi%20o%20anúncio%20da%20Dantas%20Negócios%20Imobiliários%20e%20tenho%20interesse%20em%20chácaras%20e%20terrenos.%20Quais%20opções%20vocês%20têm%20disponíveis%3F" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      <span>WhatsApp</span>
+    </a>
+  </div>
+</header>
+
+<!-- ══ HERO ══ -->
+<section id="hero">
+  <div class="hero-scene"></div>
+  <div class="hero-overlay"></div>
+  <span class="hero-leaf">🌿</span>
+  <span class="hero-leaf">🍃</span>
+  <div class="hero-content">
+    <p class="hero-eyebrow">Dantas Negócios Imobiliários</p>
+    <h1 class="hero-h1">Sua vida<br>no <em>verde,</em><br>perto de tudo</h1>
+    <p class="hero-sub">Chácaras, sítios e terrenos de grande porte para você construir a casa dos seus sonhos — com piscina, espaço e qualidade de vida. Tudo próximo à capital paulista.</p>
+    <div class="hero-badges">
+      <span class="hero-badge">🌳 Natureza preservada</span>
+      <span class="hero-badge">🏊 Ideal pra piscina</span>
+      <span class="hero-badge">🛣️ Próximo a SP</span>
+      <span class="hero-badge">💰 Melhores preços</span>
+    </div>
+    <div class="hero-actions">
+      <a class="btn-green" href="#listings">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        Ver Oportunidades
+      </a>
+      <a class="btn-cream" href="#formulario">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/></svg>
+        Quero Ser Contatado
+      </a>
+    </div>
+  </div>
+  <div class="hero-scroll">
+    <span>Explore</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<!-- ══ WHY BAND ══ -->
+<div id="why">
+  <div class="container">
+    <div class="why-grid">
+      <div class="why-cell reveal">
+        <span class="why-icon">🌿</span>
+        <div class="why-val">500+</div>
+        <div class="why-label">Imóveis negociados</div>
+      </div>
+      <div class="why-cell reveal">
+        <span class="why-icon">📍</span>
+        <div class="why-val">5</div>
+        <div class="why-label">Regiões cobertas</div>
+      </div>
+      <div class="why-cell reveal">
+        <span class="why-icon">🤝</span>
+        <div class="why-val">100%</div>
+        <div class="why-label">Foco no cliente</div>
+      </div>
+      <div class="why-cell reveal">
+        <span class="why-icon">💰</span>
+        <div class="why-val">Nº1</div>
+        <div class="why-label">Preços da região</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══ LISTINGS ══ -->
+<section id="listings">
+  <div class="container">
+    <div class="listings-header reveal">
+      <span class="tag">Oportunidades em Destaque</span>
+      <h2 class="section-title">Imóveis <em>selecionados</em><br>para você</h2>
+      <div class="divider"></div>
+      <p style="font-size:15px;color:var(--txt-m);max-width:480px;margin:0 auto;line-height:1.7">Cada imóvel é escolhido a dedo pela nossa equipe. Qualidade, localização e os melhores preços da região.</p>
+    </div>
+  </div>
+
+  <div class="carousel-wrap">
+    <div class="carousel-track" id="track">
+
+      <!-- CARD 1 -->
+      <div class="card">
+        <img class="card-img" src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=600&auto=format&fit=crop" alt="Chácara com piscina em Mairiporã SP"/>
+        <div class="card-body">
+          <div class="card-tag">🏡 Chácara · Venda</div>
+          <div class="card-title">Chácara com Piscina e Jardim</div>
+          <div class="card-location">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Mairiporã / SP
+          </div>
+          <div class="card-feats">
+            <span class="card-feat">📐 5.000 m²</span>
+            <span class="card-feat">🌳 Área verde</span>
+            <span class="card-feat">🏊 Piscina</span>
+            <span class="card-feat">🚗 Acesso fácil</span>
+          </div>
+          <div class="card-price">
+            <div>
+              <div class="card-price-tag">A partir de</div>
+              Consulte
+            </div>
+            <a class="card-cta" style="padding:10px 16px;font-size:12px" href="https://wa.me/5511957469220?text=Olá!%20Vi%20o%20anúncio%20da%20Dantas%20Imóveis%20e%20tenho%20interesse%20na%20chácara%20com%20piscina%20em%20Mairiporã.%20Quais%20as%20condições%3F" target="_blank" rel="noopener">Ver no WhatsApp →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- CARD 2 -->
+      <div class="card">
+        <img class="card-img" src="https://images.unsplash.com/photo-1586105251261-72a756497a11?w=600&auto=format&fit=crop" alt="Terreno grande para construção em Atibaia SP"/>
+        <div class="card-body">
+          <div class="card-tag">🌳 Terreno · Venda</div>
+          <div class="card-title">Terreno Plano para Casa Grande</div>
+          <div class="card-location">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Atibaia / SP
+          </div>
+          <div class="card-feats">
+            <span class="card-feat">📐 3.000 m²</span>
+            <span class="card-feat">⛰️ Vista serrana</span>
+            <span class="card-feat">💧 Nascente</span>
+            <span class="card-feat">🔌 Infraestrutura</span>
+          </div>
+          <div class="card-price">
+            <div>
+              <div class="card-price-tag">Melhores preços</div>
+              Consulte
+            </div>
+            <a class="card-cta" style="padding:10px 16px;font-size:12px" href="https://wa.me/5511957469220?text=Olá!%20Vi%20o%20anúncio%20da%20Dantas%20Imóveis%20e%20tenho%20interesse%20no%20terreno%20em%20Atibaia.%20Quais%20as%20condições%3F" target="_blank" rel="noopener">Ver no WhatsApp →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- CARD 3 -->
+      <div class="card">
+        <img class="card-img" src="https://images.unsplash.com/photo-1501685532562-aa6846b14a0e?w=600&auto=format&fit=crop" alt="Sítio com lago em Terra Preta SP"/>
+        <div class="card-body">
+          <div class="card-tag">🏕️ Sítio · Venda</div>
+          <div class="card-title">Sítio com Lago e Mata Nativa</div>
+          <div class="card-location">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Terra Preta / SP
+          </div>
+          <div class="card-feats">
+            <span class="card-feat">📐 8.000 m²</span>
+            <span class="card-feat">🐟 Lago</span>
+            <span class="card-feat">🌲 Mata nativa</span>
+            <span class="card-feat">🛖 Casa sede</span>
+          </div>
+          <div class="card-price">
+            <div>
+              <div class="card-price-tag">Oportunidade única</div>
+              Consulte
+            </div>
+            <a class="card-cta" style="padding:10px 16px;font-size:12px" href="https://wa.me/5511957469220?text=Olá!%20Vi%20o%20anúncio%20da%20Dantas%20Imóveis%20e%20tenho%20interesse%20no%20sítio%20em%20Terra%20Preta.%20Quais%20as%20condições%3F" target="_blank" rel="noopener">Ver no WhatsApp →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- CARD 4 -->
+      <div class="card">
+        <img class="card-img" src="https://images.unsplash.com/photo-1572120360610-d971b9d7767c?w=600&auto=format&fit=crop" alt="Chácara para locação perto de SP em Guarulhos"/>
+        <div class="card-body">
+          <div class="card-tag">🔑 Chácara · Locação</div>
+          <div class="card-title">Chácara para Lazer e Eventos</div>
+          <div class="card-location">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Guarulhos / SP
+          </div>
+          <div class="card-feats">
+            <span class="card-feat">📐 4.500 m²</span>
+            <span class="card-feat">🎉 Churrasqueira</span>
+            <span class="card-feat">🏊 Piscina</span>
+            <span class="card-feat">🚗 45 min SP</span>
+          </div>
+          <div class="card-price">
+            <div>
+              <div class="card-price-tag">Aluguel mensal</div>
+              Consulte
+            </div>
+            <a class="card-cta" style="padding:10px 16px;font-size:12px" href="https://wa.me/5511957469220?text=Olá!%20Vi%20o%20anúncio%20da%20Dantas%20Imóveis%20e%20tenho%20interesse%20na%20chácara%20para%20locação%20em%20Guarulhos.%20Quais%20as%20condições%3F" target="_blank" rel="noopener">Ver no WhatsApp →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- CARD 5 -->
+      <div class="card">
+        <img class="card-img" src="https://images.unsplash.com/photo-1449844908441-8829872d2607?w=600&auto=format&fit=crop" alt="Terreno rural amplo em Mairiporã para construção de casa grande"/>
+        <div class="card-body">
+          <div class="card-tag">🌾 Terreno Rural · Venda</div>
+          <div class="card-title">Terreno Rural — Oportunidade de Investimento</div>
+          <div class="card-location">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Mairiporã / SP
+          </div>
+          <div class="card-feats">
+            <span class="card-feat">📐 12.000 m²</span>
+            <span class="card-feat">🌿 Acesso pavimentado</span>
+            <span class="card-feat">📄 Escritura</span>
+            <span class="card-feat">📈 Alto potencial</span>
+          </div>
+          <div class="card-price">
+            <div>
+              <div class="card-price-tag">Melhor da região</div>
+              Consulte
+            </div>
+            <a class="card-cta" style="padding:10px 16px;font-size:12px" href="https://wa.me/5511957469220?text=Olá!%20Vi%20o%20anúncio%20da%20Dantas%20Imóveis%20e%20tenho%20interesse%20no%20terreno%20rural%20em%20Mairiporã.%20Quais%20as%20condições%3F" target="_blank" rel="noopener">Ver no WhatsApp →</a>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /track -->
+  </div><!-- /carousel-wrap -->
+
+  <div class="carousel-nav">
+    <button class="c-btn" id="prev" aria-label="Anterior">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+    </button>
+    <div class="c-dots" id="dots"></div>
+    <button class="c-btn" id="next" aria-label="Próximo">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+    </button>
+  </div>
+
+  <div style="text-align:center;margin-top:32px">
+    <a href="https://wa.me/5511957469220?text=Olá!%20Vi%20o%20anúncio%20da%20Dantas%20Imóveis%20e%20quero%20conhecer%20todas%20as%20opções%20disponíveis%20de%20chácaras%20e%20terrenos.%20Pode%20me%20ajudar%3F" target="_blank" rel="noopener" class="btn-green" style="display:inline-flex">
+      <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      Ver Mais Opções no WhatsApp
+    </a>
+  </div>
+</section>
+
+<!-- ══ WHY US ══ -->
+<section id="whyus">
+  <div class="container">
+    <div class="whyus-layout">
+      <div class="whyus-text reveal-l">
+        <span class="tag">Por que escolher a Dantas</span>
+        <h2 class="section-title" style="margin-bottom:16px">Experiência que<br><em>você merece</em></h2>
+        <div class="divider"></div>
+        <p>Somos especialistas em imóveis rurais, chácaras e terrenos de grande porte no eixo norte de São Paulo. Nosso time conhece cada estrada, cada bairro, cada oportunidade da região.</p>
+        <p>Seja para construir a casa dos seus sonhos, ter um refúgio de lazer ou investir com segurança em locação — estamos aqui para guiar você do início ao fim.</p>
+        <a class="btn-green" style="margin-top:8px;display:inline-flex" href="#formulario">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:18px;height:18px"><path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/></svg>
+          Quero ser Contatado
+        </a>
+      </div>
+      <div class="reasons reveal-r">
+        <div class="reason-item">
+          <div class="reason-icon">🌿</div>
+          <div class="reason-body">
+            <h4>Especialistas em Imóveis Rurais</h4>
+            <p>Conhecemos profundamente o mercado de chácaras, sítios e terrenos da região metropolitana de SP.</p>
+          </div>
+        </div>
+        <div class="reason-item">
+          <div class="reason-icon">💰</div>
+          <div class="reason-body">
+            <h4>Os Melhores Preços da Região</h4>
+            <p>Negociamos diretamente com proprietários para garantir as condições mais vantajosas para você.</p>
+          </div>
+        </div>
+        <div class="reason-item">
+          <div class="reason-icon">📋</div>
+          <div class="reason-body">
+            <h4>Documentação sem Dor de Cabeça</h4>
+            <p>Toda a parte burocrática fica com a gente. Você só foca em fazer a escolha certa.</p>
+          </div>
+        </div>
+        <div class="reason-item">
+          <div class="reason-icon">🚗</div>
+          <div class="reason-body">
+            <h4>Visitas Guiadas e Personalizadas</h4>
+            <p>Você não precisa ir sozinho. Acompanhamos você em cada visita para tirar todas as dúvidas.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ QUOTE / CTA MID ══ -->
+<section id="quote">
+  <div class="container">
+    <p class="quote-text reveal">
+      "Imagina acordar todo dia com a vista de um <strong>jardim enorme,</strong> a piscina esperando, sem trânsito, sem barulho — e ainda <strong>perto de São Paulo</strong> quando você precisar."
+    </p>
+    <a class="quote-wpp reveal" href="https://wa.me/5511957469220?text=Olá!%20Vi%20o%20anúncio%20da%20Dantas%20Negócios%20Imobiliários%20e%20tenho%20interesse%20em%20chácaras%20e%20terrenos%20perto%20de%20SP.%20Quais%20opções%20vocês%20têm%20disponíveis%3F" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      Falar com um especialista agora
+    </a>
+  </div>
+</section>
+
+<!-- ══ REGIÕES ══ -->
+<section id="regioes">
+  <div class="container">
+    <div class="reveal" style="text-align:center;margin-bottom:8px">
+      <span class="tag">Onde Atuamos</span>
+      <h2 class="section-title">Regiões que <em>adoramos</em></h2>
+      <p style="font-size:15px;color:var(--txt-m);max-width:500px;margin:12px auto 0;line-height:1.7">Cada uma dessas regiões tem um charme único — e todas ficam a menos de 2h da capital paulista.</p>
+    </div>
+    <div class="regioes-grid">
+      <div class="regiao-card reveal">
+        <div class="regiao-name">🌿 Mairiporã</div>
+        <div class="regiao-dist">~45 km de SP · Serra verde</div>
+      </div>
+      <div class="regiao-card reveal">
+        <div class="regiao-name">🌸 Atibaia</div>
+        <div class="regiao-dist">~70 km de SP · Clima agradável</div>
+      </div>
+      <div class="regiao-card reveal">
+        <div class="regiao-name">🌾 Terra Preta</div>
+        <div class="regiao-dist">~55 km de SP · Rural e tranquilo</div>
+      </div>
+      <div class="regiao-card reveal">
+        <div class="regiao-name">🏙️ Guarulhos</div>
+        <div class="regiao-dist">~25 km de SP · Bem localizado</div>
+      </div>
+      <div class="regiao-card reveal">
+        <div class="regiao-name">🌳 São Paulo</div>
+        <div class="regiao-dist">Cinturão verde da capital</div>
+      </div>
+      <div class="regiao-card reveal" style="background:var(--forest);border-left-color:var(--terra-lt)">
+        <div class="regiao-name" style="color:var(--white)">➕ Outras regiões</div>
+        <div class="regiao-dist" style="color:rgba(168,196,154,.7)">Consulte disponibilidade</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ FORMULÁRIO ══ -->
+<section id="formulario">
+  <div class="container">
+    <div class="form-card reveal">
+      <div class="form-header">
+        <span class="tag">Cadastre seu Interesse</span>
+        <h2>Encontre o imóvel<br>ideal para você</h2>
+        <p>Preencha o formulário e um de nossos especialistas entrará em contato com opções personalizadas para o seu perfil.</p>
+      </div>
+      <div class="form-body">
+        <div id="formContent">
+          <!-- Substitua YOUR_FORMSPREE_ID pelo seu ID do Formspree -->
+          <form id="leadForm" action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST">
+
+            <div class="form-row two">
+              <div class="field">
+                <label for="nome">Nome completo *</label>
+                <input type="text" id="nome" name="nome" placeholder="Seu nome" required/>
+              </div>
+              <div class="field">
+                <label for="telefone">Telefone / WhatsApp *</label>
+                <input type="tel" id="telefone" name="telefone" placeholder="(11) 99999-9999" required/>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="field">
+                <label for="email">E-mail *</label>
+                <input type="email" id="email" name="email" placeholder="seu@email.com" required/>
+              </div>
+            </div>
+
+            <div class="form-row two">
+              <div class="field">
+                <label for="prazo">Prazo de decisão *</label>
+                <select id="prazo" name="prazo" required>
+                  <option value="" disabled selected>Selecione...</option>
+                  <option value="imediato">Imediato</option>
+                  <option value="30-60 dias">30 a 60 dias</option>
+                  <option value="estudo inicial">Estudo inicial</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="tipo">Tipo de busca *</label>
+                <select id="tipo" name="tipo" required>
+                  <option value="" disabled selected>Selecione...</option>
+                  <option value="compra">Compra</option>
+                  <option value="locação">Locação</option>
+                  <option value="compra ou locação">Ambos</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="field">
+                <label for="valor">Valor máximo (R$)</label>
+                <input type="text" id="valor" name="valor_maximo" placeholder="Ex: R$ 500.000"/>
+              </div>
+            </div>
+
+            <div class="form-row" style="margin-bottom:0">
+              <label class="checkbox-wrap">
+                <input type="checkbox" name="aceite_contato" value="sim" required/>
+                <span>Autorizo a <strong>Dantas Negócios Imobiliários</strong> a entrar em contato comigo por telefone, WhatsApp ou e-mail com ofertas de imóveis e corretores especializados de acordo com meu perfil.</span>
+              </label>
+            </div>
+
+            <!-- Campo oculto para o Make identificar a origem -->
+            <input type="hidden" name="_subject" value="Novo lead - Landing Page Chácaras"/>
+            <input type="hidden" name="origem" value="landing-page-chacaras"/>
+
+            <button type="submit" class="form-submit">
+              🌿 Quero Ser Contatado por um Especialista
+            </button>
+            <p class="form-note">🔒 Seus dados são confidenciais e usados apenas para atendimento personalizado.</p>
+          </form>
+        </div>
+        <div class="form-success" id="formSuccess">
+          <span class="success-icon">🌿</span>
+          <h3>Cadastro recebido!</h3>
+          <p>Nosso time vai entrar em contato em breve com as melhores opções para você.<br><br>Enquanto isso, pode falar direto pelo WhatsApp:</p>
+          <a class="btn-green" style="margin-top:20px;display:inline-flex" href="https://wa.me/5511957469220?text=Olá!%20Acabei%20de%20preencher%20o%20formulário%20no%20site%20da%20Dantas%20Imóveis%20e%20tenho%20interesse%20em%20chácaras%20e%20terrenos.%20Pode%20me%20ajudar%3F" target="_blank">
+            <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Falar no WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ FOOTER ══ -->
+<footer>
+  <div class="footer-logo">Dantas Negócios Imobiliários</div>
+  <div class="footer-tag">Especialistas em Chácaras, Sítios e Terrenos</div>
+  <div class="footer-regioes">São Paulo · Guarulhos · Mairiporã · Terra Preta · Atibaia</div>
+  <a class="footer-wpp" href="https://wa.me/5511957469220?text=Olá!%20Vi%20o%20site%20da%20Dantas%20Imóveis%20e%20tenho%20interesse%20em%20chácaras%20e%20terrenos.%20Quais%20opções%20têm%20disponíveis%3F" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    Fale com um Corretor
+  </a>
+  <div class="footer-copy">© 2025 Dantas Negócios Imobiliários · Todos os direitos reservados</div>
+</footer>
+
+<!-- ══ FLOAT WPP ══ -->
+<div class="wpp-float">
+  <div class="wpp-pill">💬 Falar com corretor</div>
+  <div style="position:relative;width:58px;height:58px">
+    <div class="wpp-ring"></div>
+    <a class="wpp-fab" href="https://wa.me/5511957469220?text=Olá!%20Vi%20o%20anúncio%20da%20Dantas%20Negócios%20Imobiliários%20e%20tenho%20interesse%20em%20chácaras%20e%20terrenos%20perto%20de%20SP.%20Quais%20opções%20têm%20disponíveis%3F" target="_blank" rel="noopener" aria-label="WhatsApp">
+      <svg viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    </a>
+  </div>
+</div>
+
+<script>
+/* ── SCROLL REVEALS ── */
+const revealEls = document.querySelectorAll('.reveal,.reveal-l,.reveal-r');
+const revObs = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if(e.isIntersecting){ e.target.classList.add('in'); revObs.unobserve(e.target); }
+  });
+}, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+revealEls.forEach((el, i) => {
+  el.style.transitionDelay = (i % 4) * 0.08 + 's';
+  revObs.observe(el);
+});
+
+/* ── HEADER SCROLL ── */
+const hdr = document.getElementById('hdr');
+window.addEventListener('scroll', () => {
+  hdr.classList.toggle('scrolled', window.scrollY > 80);
+}, { passive: true });
+
+/* ── CAROUSEL ── */
+(function(){
+  const track = document.getElementById('track');
+  const cards = track.querySelectorAll('.card');
+  const dotsWrap = document.getElementById('dots');
+  let current = 0;
+  let perView = 1;
+  let total;
+
+  function calcPerView(){
+    const w = window.innerWidth;
+    if(w >= 960) return 3;
+    if(w >= 640) return 2;
+    return 1;
+  }
+
+  function buildDots(){
+    dotsWrap.innerHTML = '';
+    total = Math.ceil(cards.length / perView);
+    for(let i=0;i<total;i++){
+      const d = document.createElement('button');
+      d.className = 'c-dot' + (i===0?' active':'');
+      d.setAttribute('aria-label','Slide '+(i+1));
+      d.addEventListener('click', () => goTo(i));
+      dotsWrap.appendChild(d);
+    }
+  }
+
+  function goTo(idx){
+    current = (idx + Math.ceil(cards.length / perView)) % Math.ceil(cards.length / perView);
+    const cardW = cards[0].getBoundingClientRect().width;
+    const gap = perView === 1 ? 40 : 24;
+    track.style.transform = `translateX(-${current * (cardW + gap) * perView}px)`;
+    dotsWrap.querySelectorAll('.c-dot').forEach((d,i) => d.classList.toggle('active', i===current));
+  }
+
+  function init(){
+    perView = calcPerView();
+    buildDots();
+    goTo(0);
+  }
+
+  document.getElementById('prev').addEventListener('click', () => goTo(current - 1));
+  document.getElementById('next').addEventListener('click', () => goTo(current + 1));
+
+  // Touch swipe
+  let startX = 0;
+  track.addEventListener('touchstart', e => { startX = e.touches[0].clientX; }, { passive: true });
+  track.addEventListener('touchend', e => {
+    const diff = startX - e.changedTouches[0].clientX;
+    if(Math.abs(diff) > 40) diff > 0 ? goTo(current + 1) : goTo(current - 1);
+  }, { passive: true });
+
+  window.addEventListener('resize', () => { perView = calcPerView(); buildDots(); goTo(0); }, { passive: true });
+
+  // Auto-play
+  let timer = setInterval(() => goTo(current + 1), 5000);
+  track.addEventListener('touchstart', () => clearInterval(timer), { passive: true });
+
+  init();
+})();
+
+/* ── PHONE MASK ── */
+document.getElementById('telefone').addEventListener('input', function(){
+  let v = this.value.replace(/\D/g,'');
+  if(v.length <= 10) v = v.replace(/(\d{2})(\d{4})(\d{0,4})/,'($1) $2-$3');
+  else v = v.replace(/(\d{2})(\d{5})(\d{0,4})/,'($1) $2-$3');
+  this.value = v.trim().replace(/-$/,'');
+});
+
+/* ── CURRENCY MASK ── */
+document.getElementById('valor').addEventListener('input', function(){
+  let v = this.value.replace(/\D/g,'');
+  if(!v){ this.value=''; return; }
+  v = (parseInt(v)/100).toLocaleString('pt-B R',{style:'currency',currency:'BRL'});
+  this.value = v;
+});
+
+/* ── FORM SUBMIT ── */
+const form = document.getElementById('leadForm');
+form.addEventListener('submit', async function(e){
+  e.preventDefault();
+  const btn = form.querySelector('.form-submit');
+  btn.textContent = 'Enviando...';
+  btn.disabled = true;
+  try {
+    const res = await fetch(form.action, {
+      method: 'POST',
+      body: new FormData(form),
+      headers: { 'Accept': 'application/json' }
+    });
+    if(res.ok){
+      document.getElementById('formContent').style.display = 'none';
+      document.getElementById('formSuccess').classList.add('show');
+    } else {
+      btn.textContent = 'Erro ao enviar. Tente novamente.';
+      btn.disabled = false;
+    }
+  } catch {
+    btn.textContent = 'Erro. Verifique sua conexão.';
+    btn.disabled = false;
+  }
+});
+
+/* ── WPP PILL ON SCROLL ── */
+const pill = document.querySelector('.wpp-pill');
+window.addEventListener('scroll', () => {
+  if(window.scrollY > 500) pill.style.display = 'block';
+}, { passive: true });
+</script>
+</body>
+</html>
